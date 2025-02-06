@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Image Slider</title>
 </head>
+
 <body>
     <div class="content">
         <div class="images">
             <img src="img/img1.jpg">
-            <img src="img/img2.jpeg">
+            <img src="img/img2.jpg">
             <img src="img/img3.jpg">
             <img src="img/img4.jpg">
-            <img src="img/img5.jpeg">
+            <img src="img/img5.jpg">
         </div>
-        <div class="slide left">
-         <i class="fa-solid fa-chevron-left" onclick="side_slide(-1)"></i>
+        <div class="icon left">
+            <i class="fa-solid fa-chevron-left"></i>
         </div>
-        <div class="slide right">
-            <i class="fa-solid fa-chevron-right" onclick="side_slide(1)"></i>
+        <div class="icon right">
+            <i class="fa-solid fa-chevron-right"></i>
         </div>
-        <div class="btm_sliders">
-            <span onclick="btm_slide(1)"></span>
-            <span onclick="btm_slide(2)"></span>
-            <span onclick="btm_slide(3)"></span>
-            <span onclick="btm_slide(4)"></span>
-            <span onclick="btm_slide(5)"></span>
+        <div class="buttons">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
     </div>
 
 
     <script src="script.js"></script>
 </body>
+
 </html>
